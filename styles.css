@@ -32,13 +32,20 @@ body {
     height: 100vh; 
     overflow: hidden;
 }
+
 p {
     margin-bottom: 13px;
 }
 
+a {
+    color: #7A5948;
+    font-family: 'EBGaramond-Italic', serif;
+  }
+
 .highlight-yellow {
+    font-family: 'EBGaramond-Italic', serif;
     background-color: #fff500;
-    border-radius: 3px; 
+    border-radius: 0px; 
 }
 
 .left-column {
@@ -53,12 +60,12 @@ p {
 header {
     text-align: center;
     font-size: 2vw; 
-    font-family: 'EBGaramond-Regular', serif;
+    font-family: 'EBGaramond-Italic', serif;
     line-height: 1;
     margin-bottom: 20px;
     hyphens: auto;
-    padding-bottom: 30px;
-    border-bottom: 1px dashed #7A5948;
+    padding-top: 10px;
+    padding-bottom: 20px;
     color: #7A5948;
 }
 
@@ -84,7 +91,7 @@ main {
     position: relative;
     padding: 20px;
     background-color: #ffffff; 
-    border-left: 1px dashed #7A5948;
+    border-left: 1px solid #7A5948;
     overflow-y: auto; 
     height: 100%;  
 }
@@ -177,14 +184,14 @@ main {
 }
 
 .column h2 {
-    font-family: 'EBGaramond-Regular', serif;
+    font-family: 'EBGaramond-Italic', serif;
     font-size: 3vw;
     line-height: 1;
     text-align: center;
     margin-bottom: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: var(--main-text-color);
-    border-bottom: 1px dashed #7A5948;
 }
 
 .column h3 {
@@ -199,7 +206,7 @@ main {
 
 .left-column p.introduction-paragraph {
     text-align: left;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
     font-size: 1.9vw;
     line-height: 1.15;
     color: #7A5948;
@@ -233,7 +240,7 @@ main {
     hyphens: auto;
 }
 
-.column p.first-paragraph-interview {
+.left-column p.intro-paragraph-one {
     text-align: left;
     margin-bottom: 30px;
     font-size: 1.9vw;
@@ -242,13 +249,37 @@ main {
     hyphens: auto;
 }
 
-.column p.second-paragraph-interview {
+
+.left-column p.intro-paragraph-two {
     text-align: left;
     margin-bottom: 30px;
     font-size: 1.9vw;
     line-height: 1.15;
     color: var(--main-text-color);
     hyphens: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #7A5948;
+}
+
+
+.column p.intro-paragraph-one {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 1.9vw;
+    line-height: 1.15;
+    color: var(--main-text-color);
+    hyphens: auto;
+}
+
+.column p.intro-paragraph-two {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 1.9vw;
+    line-height: 1.15;
+    color: var(--main-text-color);
+    hyphens: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #7A5948;
 }
 
 .column p.interview-question {
